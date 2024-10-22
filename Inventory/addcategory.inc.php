@@ -1,8 +1,8 @@
 <?php
 // include("category.php");
 if (isset($_SESSION['login'])) {
-   $categoryID = $_POST['categoryID'];
-   if ((trim($categoryID) == '') or (!is_numeric($categoryID))) {
+   $categoryID = filter_input(INPUT_POST, 'categoryID', FILTER_VALIDATE_INT);
+   if ((trim($categoryID) == '') or (!is_int($categoryID))) {
        echo "<h2>Sorry, you must enter a valid category ID number</h2>\n";
    } else {
        $categoryCode = htmlspecialchars($_POST['categoryCode']);
