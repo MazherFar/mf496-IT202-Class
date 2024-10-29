@@ -17,7 +17,9 @@
         </td>
        </tr>
        <tr>
-           <td><strong>Categories</strong></td>
+           <td><img src="images/categories.png" alt="Categories Icon" width="12" height="12">&nbsp;
+               <strong>Categories</strong>
+           </td>
        </tr>
        <tr>
            <td>&nbsp;&nbsp;&nbsp;<a href="index.php?content=listcategories">

@@ -19,7 +19,6 @@
    justify-self: start;
  }
 </style>
-
 <?php
 if (!isset($_SESSION['login'])) {
 ?>
