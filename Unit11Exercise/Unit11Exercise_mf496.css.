@@ -1,0 +1,33 @@
+/* Mazher Farooq, It-202 section 003, Internet Applications, Unit 8 In-Class Exercise, mf496@njit.edu */
+main {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #FFC0CB;
+   margin: 0 auto;
+   width: 550px;
+   border: 3px solid #FFC0CB;
+   padding: 1em 2em;
+}
+h1 {
+   color: #DB7093;
+   margin-top: 0;
+}
+div {
+   margin-bottom: 0.5em;
+}
+label {
+   float: left;
+   width: 16em;
+   text-align: right;
+}
+input {
+   margin-left: 1em;
+}
+#calculate {
+   margin-bottom: 1em;
+}
+
+p {
+   font-family: Georgia, serif;
+   font-size: 16px;
+   color: #4682B4;
+}
