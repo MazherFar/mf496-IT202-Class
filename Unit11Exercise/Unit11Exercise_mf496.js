@@ -18,9 +18,12 @@ function makeChange() {
     console.log(`quarters = ${quarters}`);
     cents = cents % 25;                     // assign remainder to cents variable
     const dimes = parseInt(cents / 10);     // get number of dimes
+    console.log(`dimes = ${dimes}`);
     cents = cents % 10;                     // assign remainder to cents variable
     const nickels = parseInt(cents / 5);    // get number of nickels
+    console.log(`nickels = ${nickels}`);
     const pennies = cents % 5;              // get number of pennies
+    console.log(`pennies = ${pennies}`);
     // display the results of the calculations
     document.getElementById("quarters").value = quarters;
     document.getElementById("dimes").value = dimes;
